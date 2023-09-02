@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "run:android": "nuxt prepare && nuxt generate && cap sync && cap run android"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/ionic": "^0.12.1",
+    "nuxt": "^3.7.0"
+  },
+  "dependencies": {
+    "@capacitor-community/sqlite": "^5.0.7",
+    "@capacitor/android": "^5.3.0",
+    "@ionic/pwa-elements": "^3.2.2",
+    "@pinia/nuxt": "^0.4.11",
+    "jeep-sqlite": "^2.5.1",
+    "pinia": "^2.1.6",
+    "sql.js": "^1.8.0",
+    "typeorm": "^0.3.17",
+    "vuex": "^4.0.2"
+  }
+}

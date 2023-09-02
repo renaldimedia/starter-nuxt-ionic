@@ -1,0 +1,16 @@
+{
+  "appId": "com.starter.app",
+  "appName": "starter-nuxt-ionic",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "plugins": {
+    "CapacitorSQLite": {
+      "androidIsEncryption": true,
+      "androidBiometric": {
+        "biometricAuth" : false,
+        "biometricTitle" : "Biometric login for capacitor sqlite",
+        "biometricSubTitle" : "Log in using your biometric"
+      }
+    }
+  }
+}
